@@ -16,5 +16,5 @@ handler:
     candidates:
     - promptResponse:
         canvas:
-          url: https://<projectId>.web.app
+          url: https://<PROJECT_ID>.web.app
 transitionToScene: Welcome

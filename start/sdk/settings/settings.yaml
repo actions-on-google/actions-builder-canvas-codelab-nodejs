@@ -16,5 +16,5 @@ defaultLocale: en
 localizedSettings:
   displayName: Snow Pal sample
   pronunciation: Snow Pal sample
-projectId: <projectId>
+projectId: <PROJECT_ID>
 usesInteractiveCanvas: true

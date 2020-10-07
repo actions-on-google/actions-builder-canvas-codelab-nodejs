@@ -46,12 +46,6 @@ export class Action {
         this.gameScene.start();
       },
     };
-    this.commands.START_GAME.bind(this);
-    this.commands.CORRECT_ANSWER.bind(this);
-    this.commands.INCORRECT_ANSWER.bind(this);
-    this.commands.WIN_GAME.bind(this);
-    this.commands.LOSE_GAME.bind(this);
-    this.commands.PLAY_AGAIN.bind(this);
   }
 
   /**
@@ -73,7 +67,6 @@ export class Action {
         }
       }
     };
-    callbacks.onUpdate.bind(this);
     // Called by the Interactive Canvas web app once web app has loaded to
     // register callbacks.
     this.canvas.ready(callbacks);

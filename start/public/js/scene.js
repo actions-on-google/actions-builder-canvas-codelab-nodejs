@@ -126,7 +126,7 @@ export class Scene extends Phaser.Scene {
         .on('pointerdown', () => this.playAgainButton.setStyle({fill: '#0ff'}))
         .on('pointerup', () => {
             this.playAgainButton.setStyle({fill: '#ff0'});
-            // Add SECTION M `sendTextQuery` content here
+            // Add SECTION J `sendTextQuery` content here
         });
 
       this.visibleObjects.push(this.background);

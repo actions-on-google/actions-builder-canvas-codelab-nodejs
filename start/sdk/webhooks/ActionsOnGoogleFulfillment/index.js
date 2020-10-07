@@ -83,21 +83,21 @@ app.handle('guess', (conv) => {
     displayedWord = getUpdatedDisplayedWord(conv, guess);
 
     const userHasWon = correctWord === displayedWord;
-    // Add SECTION E `if (userHasWon)`'` content here
+    // Add SECTION D `if (userHasWon)`'` content here
       conv.add(`<speak>Let's see if your guess is there...<break
       time='2500ms'/> ${guess} is right.</speak>`);
       // Add SECTION A `conv.add(new Canvas({` content here
       conv.add(`<speak>${randomArrayItem(CORRECT_RESPONSES)}</speak>`);
     }
-  // Add SECTION F `}` here
+  // Add SECTION E `}` here
   else {
-    // Add SECTION G `Check if the user has exceeded the maximum` content here
+    // Add SECTION F `Check if the user has exceeded the maximum` content here
       conv.add(`<speak>Let's see if your guess is there...<break
       time='2500ms'/>  ${guess} is wrong.</speak>`);
       // Add SECTION B `conv.add(new Canvas({` content here
       conv.add(`<speak>${randomArrayItem(INCORRECT_RESPONSES)}</speak>`);
     }
-  // Add SECTION H `}` here
+  // Add SECTION G `}` here
 });
 
 function getUpdatedDisplayedWord(conv, guess) {

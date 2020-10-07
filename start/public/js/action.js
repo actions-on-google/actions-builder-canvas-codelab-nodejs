@@ -31,13 +31,9 @@ export class Action {
         this.gameScene.start();
       },
       // Add SECTION C `CORRECT_ANSWER: (params) => {` content here
-      // Add SECTION I `WIN_GAME: (params) => {` content here
-      // Add SECTION K `PLAY_AGAIN: (params) => {` content here
+      // Add SECTION H `WIN_GAME: (params) => {` content here
+      // Add SECTION I `PLAY_AGAIN: (params) => {` content here
     };
-    this.commands.START_GAME.bind(this);
-    // Add SECTION D `this.commands.CORRECT_ANSWER.bind(this);` content here
-    // Add SECTION J `this.commands.WIN_GAME.bind(this);` content here
-    // Add SECTION L `this.commands.PLAY_AGAIN.bind(this);` content here
   }
 
   /**
@@ -59,7 +55,6 @@ export class Action {
         }
       }
     };
-    callbacks.onUpdate.bind(this);
     // Called by the Interactive Canvas web app once web app has loaded to
     // register callbacks.
     this.canvas.ready(callbacks);
