@@ -1,0 +1,57 @@
+{
+  "textures": [
+    {
+      "image": "win-lose.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1429,
+        "h": 340
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "you-lose.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 1024,
+            "h": 600
+          },
+          "spriteSourceSize": {
+            "x": 99,
+            "y": 91,
+            "w": 823,
+            "h": 338
+          },
+          "frame": {
+            "x": 1,
+            "y": 1,
+            "w": 823,
+            "h": 338
+          }
+        },
+        {
+          "filename": "you-win.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 1024,
+            "h": 600
+          },
+          "spriteSourceSize": {
+            "x": 207,
+            "y": 90,
+            "w": 602,
+            "h": 329
+          },
+          "frame": {
+            "x": 826,
+            "y": 1,
+            "w": 602,
+            "h": 329
+          }
+        }
+      ]
+    }
+  ]
+}

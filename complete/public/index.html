@@ -1,0 +1,49 @@
+<!--
+Copyright 2020 Google LLC
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Snow Pal with Interactive Canvas</title>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/phaser@3.18.1/dist/phaser.min.js"></script>
+
+  <!-- Disable favicon requests -->
+  <link rel="shortcut icon" type="image/x-icon" href="data:image/x-icon;,">
+
+  <!-- Load Assistant Interactive Canvas API -->
+  <script type="text/javascript"
+    src="https://www.gstatic.com/assistant/interactivecanvas/api/interactive_canvas.min.js"></script>
+
+  <!-- Load Howlr Audio Library -->
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/howler/2.1.2/howler.min.js"></script>
+
+  <!-- Load custom CSS -->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div id="phaser-example"></div>
+  <div class="view">
+    <div class="debug">
+      <div class="logs"></div>
+    </div>
+  </div>
+  <!-- Load logging -->
+  <script src="js/log.js"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

@@ -20,7 +20,7 @@ The following steps explain how to deploy the code found in the `start` director
 1. From the [Actions on Google Console](https://console.actions.google.com/), **New project** > **Create project** > under **What kind of Action do you want to build?** > **Game** > **Blank project for smart display**
 
 #### Firebase Hosting Deployment
-1. Run `firebase deploy --project {PROJECT_ID} --only hosting` to deploy the web app to Firebase Hosting
+1. Run `firebase deploy --project {projectId} --only hosting` to deploy the web app to Firebase Hosting
    + To find your Project ID: In the Actions Console console for your project, navigate to ⋮ > Project settings > Project ID.
 
 #### Actions CLI
