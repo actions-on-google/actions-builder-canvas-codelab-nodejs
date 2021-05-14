@@ -28,7 +28,6 @@ The following steps explain how to deploy the code found in the `start` director
 1. Navigate to `sdk/settings/settings.yaml`, and replace `<PROJECT_ID>` with your project ID
 1. Navigate to `sdk/custom/global/actions.intent.MAIN.yaml`, and replace `<PROJECT_ID>` with your project ID
 1. Navigate to `sdk/custom/global/actions.intent.PLAY_GAME.yaml`, and replace `<PROJECT_ID>` with your project ID
-1. Navigate to the `sdk/` directory by running `cd sdk` from the root directory of this project.
 1. Run `gactions login` to login to your account.
 1. Run `gactions push` to push your project.
 1. Run `gactions deploy preview` to deploy your project.
