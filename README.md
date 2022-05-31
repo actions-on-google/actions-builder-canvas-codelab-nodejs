@@ -1,5 +1,8 @@
 # Actions on Google: Snow Pal Interactive Canvas Sample
 
+*:warning: Warning: Conversational Actions will be deprecated on June 13, 2023. For more information, see [Conversational Actions Sunset](https://goo.gle/ca-sunset).*
+
+
 These samples serves as the source code for the [Actions on Google Interactive Canvas codelab](https://codelabs.developers.google.com/?cat=Assistant).
 The `start` directory should be used as a starting point for the codelab.
 The `complete` directory can be used as a reference for the completed implementation of the codelab.
